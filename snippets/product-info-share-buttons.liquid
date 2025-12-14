@@ -1,0 +1,14 @@
+{%- assign _alignment = block.settings.alignment | default: 'left' -%}
+<div class="product-form__share" {{ block.shopify_attributes }}>
+  <div class="product-info__share-buttons">
+    <div class="share-buttons justify-{{ _alignment | replace: 'left', 'start' | replace: 'right', 'end' }}">
+      <span class="text-subdued">{{- 'general.social.share' | t -}}</span>
+
+      <ul class="h-stack" role="list">
+        <li><a href="{% render 'share-link', host: 'facebook', title: product.title, url: product.url %}" target="_blank" rel="noopener" aria-label="{{ 'general.social.share_on_facebook' | t }}">{%- render 'icon' with 'facebook', width: 18, height: 18 -%}</a></li>
+        <li><a href="{% render 'share-link', host: 'twitter', title: product.title, url: product.url %}" target="_blank" rel="noopener" aria-label="{{ 'general.social.share_on_twitter' | t }}">{%- render 'icon' with 'twitter', width: 18, height: 18 -%}</a></li>
+        <li><a href="{% render 'share-link', host: 'pinterest', title: product.title, url: product.url, image: product.featured_media.preview_image %}" target="_blank" rel="noopener" aria-label="{{ 'general.social.share_on_pinterest' | t }}">{%- render 'icon' with 'pinterest', width: 18, height: 18 -%}</a></li>
+      </ul>
+    </div>
+  </div>
+</div>

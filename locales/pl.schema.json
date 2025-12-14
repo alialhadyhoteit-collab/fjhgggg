@@ -1,0 +1,28 @@
+{
+  "product_block": {
+    "inventory_status": {
+      "name": "Stan magazynowy"
+    },
+    "sales_point": {
+      "name": "Punkt sprzedażowy"
+    },
+    "share_on_social": {
+      "name": "Udostępnij"
+    },
+    "size_chart": {
+      "name": "Tabela rozmiarów"
+    },
+    "tab": {
+      "name": "Zakładka"
+    },
+    "trust_badge": {
+      "name": "Ikony zaufania"
+    },
+    "custom": {
+      "name": "Własny Liquid"
+    },
+    "contact": {
+      "name": "Kontakt"
+    }
+  }
+}

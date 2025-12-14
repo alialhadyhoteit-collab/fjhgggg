@@ -1,0 +1,28 @@
+{
+  "product_block": {
+    "inventory_status": {
+      "name": "Inventory status"
+    },
+    "sales_point": {
+      "name": "Sales point"
+    },
+    "share_on_social": {
+      "name": "Share"
+    },
+    "size_chart": {
+      "name": "Size chart"
+    },
+    "tab": {
+      "name": "Tab"
+    },
+    "trust_badge": {
+      "name": "Trust badge"
+    },
+    "custom": {
+      "name": "Custom liquid"
+    },
+    "contact": {
+      "name": "Contact"
+    }
+  }
+}
